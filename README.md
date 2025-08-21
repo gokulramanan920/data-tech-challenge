@@ -92,14 +92,14 @@ This repository includes:
 
 ### Initial Data Exploration and Visualization Strategy
 
-My analytical approach began with **exploratory data analysis (EDA)** through static visualizations to establish baseline understanding of the dataset. I created several key visualizations:
+My approach began with **exploratory data analysis (EDA)** through static visualizations to establish an understanding of the dataset. I created several key visualizations:
 
 1. **Top/Bottom Routes Analysis**: Bar charts showing the most and least trafficked routes by total passenger volume
 2. **Geographical Distribution**: Pie charts displaying passenger share by continent and country
 3. **Seasonal Patterns**: Line plots showing monthly seasonality across all routes
 4. **Time Series Trends**: Overall passenger traffic evolution from 1985-1988
 
-This initial static analysis revealed that **Sydney ↔ Auckland** was indeed the highest-volume route, but the visual patterns suggested inconsistent seasonal behavior.
+This initial static analysis revealed that **Sydney ↔ Auckland** was the highest-volume route, but the visual patterns suggested inconsistent seasonal behavior.
 
 ### Interactive Dashboard Development for Deeper Insights
 
@@ -110,7 +110,7 @@ Recognizing the limitations of static visualizations, I developed an **interacti
 - **Interactive time series plots** with adjustable date ranges
 - **Top/Bottom N route rankings** with configurable thresholds
 
-The dashboard proved invaluable, allowing me to identify critical patterns that weren't apparent in static analysis. Specifically, I discovered that while Sydney ↔ Auckland had the highest total volume, routes to **Singapore exhibited remarkably consistent seasonal patterns**.
+The dashboard was invaluable, allowing me to identify critical patterns that weren't apparent in static analysis. Specifically, I discovered that while Sydney ↔ Auckland had the highest total volume, routes to **Singapore exhibited remarkably consistent seasonal patterns**.
 
 ### Key Discovery: Seasonal Consistency in Singapore Routes
 
@@ -204,4 +204,5 @@ Overall, my model reveals that routes with consistent seasonal patterns (like Si
 
 - See `src/Outputs/clean_data` on the Github Repo
 - Or here: https://drive.google.com/drive/u/0/folders/1He7SFdFRxPD9aMT4FXXeJaSpEilcgg5r
+
 
