@@ -123,9 +123,9 @@ This contrasted sharply with Sydney ↔ Auckland, which showed **irregular seaso
 
 ### Model Selection and Technical Implementation
 
-Based on these insights, I implemented a **three-model comparison framework**:
+Based on these insights, I implemented the SARIMA ML Model:
 
-#### 1. SARIMA (Seasonal ARIMA) Model
+#### SARIMA (Seasonal ARIMA) Model
 **Parameter Selection Justification:**
 - **order=(1,1,1)**: 
   - p=1: One autoregressive term to capture immediate past dependencies
@@ -188,7 +188,7 @@ The analysis confirmed my hypothesis about seasonal consistency. Here are the re
 
 ### Implications and Recommendations
 
-The analysis reveals that routes with consistent seasonal patterns (like Singapore routes) achieve **2-5% MAPE accuracy**, while volatile routes (like Sydney ↔ Auckland) struggle with **20%+ MAPE**. This suggests:
+Overall, my model reveals that routes with consistent seasonal patterns (like Singapore routes) achieve **2-5% MAPE accuracy**, while volatile routes (like Sydney ↔ Auckland) struggle with **20%+ MAPE**. This suggests:
 
 1. **Invest heavily in predictable routes** (Singapore, other stable seasonal patterns)
 2. **Use SARIMA for resource planning** on stable routes with near-perfect accuracy
@@ -204,3 +204,4 @@ The analysis reveals that routes with consistent seasonal patterns (like Singapo
 
 - See `src/Outputs/clean_data` on the Github Repo
 - Or here: https://drive.google.com/drive/u/0/folders/1He7SFdFRxPD9aMT4FXXeJaSpEilcgg5r
+
