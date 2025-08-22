@@ -74,17 +74,19 @@ This repository includes:
 - Produce static visualizations of those patterns/trends
 - An interactive panel dashboard using plotly.go for exploration of those trends
 - Train and evaluate a basic SARIMA forecasting model for Top Australian Ports to Singapore
+- Report findings through slideshow and pdf
 
 ### Deliverables produced
 - Static visualizations: `src/Outputs/figures/*.png`
 - Model code and evaluation: `src/forecast.py` (SARIMA)
 - Panel Dashboard: `src/dashboard.py`
-- Answers summary: `Outputs/evaluations/Tech CHallenge Questions.pdf`
+- Slideshow Presentation: 'src/Outputs/evalutions/Generate_ Tech Challenge Walkthrough.pptx'
+- Answers summary: `Outputs/evaluations/Tech Challenge Questions.pdf`
 
 ### Answers to Task 
 - See `Outputs/Evaluations/Tech Challenge Questions.pdf` for answers to question 1-3
 - Model performance: Backtest on Jan 1989–Jul 1989; metrics reported in `Outputs/models/city_sin_metrics.json` and chart in `Outputs/figures/city_sin_forecast.png`.
-- Recommendations: Included in my slideshow presentation and towards the bottom of the README.
+- Recommendations: Included in my slideshow presentation ('src/Outputs/evalutions/Generate_ Tech Challenge Walkthrough.pptx') and towards the bottom of the README.
 
 ---
 
@@ -204,5 +206,6 @@ Overall, my model reveals that routes with consistent seasonal patterns (like Si
 
 - See `src/Outputs/clean_data` on the Github Repo
 - Or here: https://drive.google.com/drive/u/0/folders/1He7SFdFRxPD9aMT4FXXeJaSpEilcgg5r
+
 
 
